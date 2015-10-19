@@ -2,17 +2,17 @@
 The primary stylesheet for Flexbox Menu Demo web page. This sheet pulls in all the components in order of appearance.
 */
 
-@import url('imports/reset.css');
-@import url('imports/accessibility.css');
-@import url('imports/layout.css');
-@import url('imports/typography.css');
-@import url('imports/masthead.css');
-@import url('imports/nav-base.css');
-@import url('imports/nav-single-level.css');
-@import url('imports/nav-advanced.css');
-@import url('imports/nav-multi-level.css');
-@import url('imports/nav-mixed.css');
-@import url('imports/nav-social.css');
+@import url('imports/menus/reset.css');
+@import url('imports/menus/accessibility.css');
+@import url('imports/menus/layout.css');
+@import url('imports/menus/typography.css');
+@import url('imports/menus/masthead.css');
+@import url('imports/menus/nav-base.css');
+@import url('imports/menus/nav-single-level.css');
+@import url('imports/menus/nav-advanced.css');
+@import url('imports/menus/nav-multi-level.css');
+@import url('imports/menus/nav-mixed.css');
+@import url('imports/menus/nav-social.css');
 
 
 .top-menu ul{

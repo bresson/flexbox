@@ -1,1 +1,12 @@
 /* Styles for mixed menu (drop-down + social) */
+
+.nav-mixed {
+    background-color: hsl(0, 0%, 15%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*
+.nav-mixed .multi-level-nav ul{
+    background: tomato;
+}*/

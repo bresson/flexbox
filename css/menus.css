@@ -13,3 +13,24 @@ The primary stylesheet for Flexbox Menu Demo web page. This sheet pulls in all t
 @import url('imports/nav-multi-level.css');
 @import url('imports/nav-mixed.css');
 @import url('imports/nav-social.css');
+
+
+.top-menu ul{
+    color: #fff;
+    background-color: hsl(0, 0%, 15%);
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.top-menu li:hover a {
+    background-color: tomato;
+}
+.top-menu li.active a {
+    background-color: tomato;
+}
+.top-menu .menu-section {
+    margin-bottom: 0;
+}

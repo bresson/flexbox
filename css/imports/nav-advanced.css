@@ -1,0 +1,35 @@
+/* Styles for Advanced Menu */
+
+.advanced-nav li a {
+    display: flex;
+    width: 100%;;
+    justify-content: flex-start;
+}
+
+.icon {
+    flex: 0 0 1.5em; /* crece y encoge el valor por defecto y tiene un ancho de 1.5em*/
+    font-size: 1.8em;
+}
+.button-text {
+    font-size: 1.8em;
+}
+.button-text span {
+    display: block;
+    font-size: 40%;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@media screen and (min-width:30em) {
+    .advanced-nav ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+    .advanced-nav li {
+        display: flex; /* ocupe todo el espacio disponible a lo ancho y alto del contenedor padre */
+        flex: 1 0 12em; /* todos los elementos tienen un mismo ancho y crecen para ocupar todo el ancho del container y nunca tienen un ancho menor de 12em si no caben
+                        en el contenedor los pasa la siguiente linea por la propiedad de container flex-wrap:wrap */
+    }
+}

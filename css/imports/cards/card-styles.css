@@ -51,6 +51,7 @@ body {
 		margin-top: -1em;
 	}
 	.card {
+		display: flex;
 		/* width: calc(33% - 1em); igual que flex fallback*/
 		flex: 0 1 calc(50% - .5em);
 		margin-bottom: 1em;
